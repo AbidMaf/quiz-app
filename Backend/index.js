@@ -8,7 +8,7 @@ import CategoryRoute from "./routes/CategoryRoute.js";
 import QuestionRoute from "./routes/QuestionRoute.js";
 
 const app = express();
-mongoose.connect('mongodb://localhost:27017/quiz', {
+mongoose.connect('mongodb://127.0.0.1:27017/quiz', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
